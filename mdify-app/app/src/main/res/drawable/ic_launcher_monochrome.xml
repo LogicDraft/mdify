@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Material You / Android 13+ monochrome adaptive icon layer.
-    The system automatically tints this drawable to match the user's
-    wallpaper-derived theme color when "Themed Icons" is enabled.
-    The actual shape comes from ic_launcher_monochrome_bmp.png which is a
-    white-on-transparent image extracted from the app's brand icon.
+    Material You / Android 13+ monochrome adaptive icon.
+
+    HOW IT WORKS:
+    - White-filled areas → tinted to user's wallpaper accent color (foreground)
+    - Transparent areas  → show the system-provided icon background (lighter shade)
+
+    The "M" letterform and the document interior are punched as TRANSPARENT HOLES
+    using the evenOdd fill rule, so they appear as the lighter background color,
+    creating a clearly readable logo shape against the tinted foreground.
+
+    Safe zone: 18–90 of the 108×108 viewport.
 -->
-<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-    android:src="@drawable/ic_launcher_monochrome_bmp"
-    android:gravity="center"
-    android:tileMode="disabled" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Document body: rounded rectangle with folded top-right corner.
+        The M letterform is a sub-path that evenOdd turns into a transparent hole.
+        Result: white document outline + white M-shaped "notch" visible as background.
+    -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+          M 26,14
+          C 21.6,14 18,17.6 18,22
+          L 18,86
+          C 18,90.4 21.6,94 26,94
+          L 82,94
+          C 86.4,94 90,90.4 90,86
+          L 90,36
+          L 68,14
+          Z
+
+          M 36,55
+          L 36,79
+          L 43.5,79
+          L 43.5,66
+          L 54,77
+          L 64.5,66
+          L 64.5,79
+          L 72,79
+          L 72,55
+          L 64.5,55
+          L 54,66
+          L 43.5,55
+          Z
+        " />
+
+    <!-- Folded corner tab — separate white path so it's always filled, not hole-punched -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 68,14 L 90,36 L 68,36 Z" />
+
+</vector>
