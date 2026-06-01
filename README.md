@@ -41,18 +41,20 @@ Premium UI • Dark Mode • Offline Conversion • High Fidelity Markdown
 - Export workflows: copy to clipboard, save as `.md`, or share via OS share sheet.
 
 ## Screenshots
--- Mdify 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="asserts/MDfily-web (1).png" alt="MDify Web Screenshot" width="600">
-  <img src="asserts/MDfily-web (2).png" alt="MDify Web Screenshot" width="300">
+## Mdify 
+<div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="asserts/MDfily-web (2).png" width="18%" alt="Home Screen"/>
+  <img src="asserts/MDfily-web (1).png" width="18%" alt="Doc Selection"/>
 </div>
--- Mdify App
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-    <img src="asserts/MDfily-app(1).png" alt="MDify App Screenshot" width="300">
-    <img src="asserts/MDfily-app(2).png" alt="MDify App Screenshot" width="300">
-    <img src="asserts/MDfily-app(3).png" alt="MDify App Screenshot" width="300">
-    <img src="asserts/MDfily-app(4).png" alt="MDify App Screenshot" width="300">
+
+## Mdify App
+<div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="asserts/MDfily-app(1).png" width="18%" alt="Home Screen"/>
+  <img src="asserts/MDfily-app(2).png" width="18%" alt="Settings"/>
+  <img src="asserts/MDfily-app(3).png" width="18%" alt="Look and Feel"/>
+  <img src="asserts/MDfily-app(4).png" width="18%" alt="About"/>
 </div>
+
 
 ## Quick start
 
