@@ -41,18 +41,18 @@ Premium UI • Dark Mode • Offline Conversion • High Fidelity Markdown
 - Export workflows: copy to clipboard, save as `.md`, or share via OS share sheet.
 
 ## Screenshots
-
-Add polished screenshots to `docs/screenshots/` and they'll render in this README. Suggested filenames:
-
-- `docs/screenshots/home.png` — Home / Upload screen
-- `docs/screenshots/processing.png` — Conversion progress
-- `docs/screenshots/preview.png` — Markdown preview
-
-Example:
-
-![Home Screenshot](docs/screenshots/home.png)
-
----
+-- Mdify 
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <img src="asserts/MDfily-web (1).png" alt="MDify Web Screenshot" width="600">
+  <img src="asserts/MDfily-web (2).png" alt="MDify Web Screenshot" width="300">
+</div>
+-- Mdify App
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <img src="asserts/MDfily-app(1).png" alt="MDify App Screenshot" width="300">
+    <img src="asserts/MDfily-app(2).png" alt="MDify App Screenshot" width="300">
+    <img src="asserts/MDfily-app(3).png" alt="MDify App Screenshot" width="300">
+    <img src="asserts/MDfily-app(4).png" alt="MDify App Screenshot" width="300">
+</div>
 
 ## Quick start
 
@@ -93,7 +93,7 @@ cd mdify-app
 
 ## Project structure
 
-- `mdify-web/` — Next.js + React frontend and serverless API endpoints.
+- `mdify-web/` — Mdify web app built with Next.js
 	- `app/` — Next.js app routes and UI components.
 	- `components/` — Reusable UI components and preview widgets.
 	- `lib/converters/` — Converter implementations for PDF/DOCX.
