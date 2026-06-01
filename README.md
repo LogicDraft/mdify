@@ -43,8 +43,8 @@ Premium UI • Dark Mode • Offline Conversion • High Fidelity Markdown
 ## Screenshots
 ## Mdify 
 <div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="asserts/MDfily-web (2).png" width="25%" alt="Home Screen"/>
-  <img src="asserts/MDfily-web (1).png" width="25%" alt="Doc Selection"/>
+  <img src="asserts/MDfily-web (2).png" width="50%" alt="Home Screen"/>
+  <img src="asserts/MDfily-web (1).png" width="50%" alt="Doc Selection"/>
 </div>
 
 ## Mdify App
