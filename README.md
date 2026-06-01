@@ -2,7 +2,6 @@
 
 > Convert DOCX and PDF to beautiful, editable Markdown with a premium, developer-focused UI.
 
-![MDify Banner](docs/screenshots/banner.png)
 
 [![Website](https://img.shields.io/badge/Website-demo-blue)](https://example.com) [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE) [![Next.js](https://img.shields.io/badge/Framework-Next.js-black)](https://nextjs.org) [![Android](https://img.shields.io/badge/Platform-Android-green)](https://developer.android.com)
 
